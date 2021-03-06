@@ -1,0 +1,261 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    color: white;
+    position: relative;
+    top: 0.3vw;
+  }
+  
+  .navbar a {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0 0, 0.75);
+    color: white;
+  }
+
+  .main {
+      background-image: url(images/background.jpg);
+      background-size: 100%;
+      height: 47vw;
+      width: auto;
+      max-height: auto;
+  }
+
+  .ben {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 3.2vw;
+    left: 3vw;
+    text-align: center;
+    position: relative;
+  }
+
+  .alttext {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.5vw;
+    left: 3vw;
+    text-align: center;
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    animation: top 0.7s;
+    left: 30vw;
+    top: 15vw;
+  }
+  @keyframes top {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 15vw;
+      opacity: 1;
+    }
+  }
+
+  .socialmedia {
+    position: absolute;
+    top: 32vw;
+    word-spacing: 1vw;
+    animation: bottom 1s;
+    left: 8vw;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes bottom {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+  /* Instagram */
+.fa-instagram {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+/* Youtube */
+.fa-youtube {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+  /* Linkedin */
+.fa-linkedin {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+/* Github */
+.fa-github {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+  /* Spotify */
+.fa-spotify {
+  color: white;
+  font-size: 3vw;
+  position: relative;
+  left: 40vw;
+}
+
+/*E-Mail */
+.fa-envelope {
+color: white;
+font-size: 3vw;
+position: relative;
+  left: 40vw;
+}
+
+.main2 {
+    padding: 0px 10px;
+    background-image: url(images/comingsoon.jpg);
+    height: 47vw;
+    background-size: 100%;
+    width: auto;
+    max-height: auto;
+  }
+  
+  .başlık {
+      color: white;
+      top: 2vw;
+      right: 4vw;
+      font-family: 'Akaya Telivigala', cursive;
+      font-size: 2.2vw;
+      position: relative;
+    }
+  
+    .içerik {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      top: 5vw;
+      left: 0.1vw;
+      position: relative;
+      font-size: 1.5vw;
+    }
+
+.tablo {
+  top: 3vw;
+  position: relative;
+}
+
+    td {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5vw;
+      }
+  
+    .dilyetkinliğim {
+      color: white;
+      font-family: 'Akaya Telivigala', cursive;
+      right: 4vw;
+      top: 3vw;
+      position: relative;
+      font-size: 2.2vw;
+    }
+  
+    .main3 {
+        background-image: url(images/container6.jpg);
+        padding: 0px 10px;
+        height: 47vw;
+        background-size: 100%;
+        width: auto;
+        max-height: auto;
+    }
+
+    .içerik1 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        top: 5vw;
+        font-size: 1.5vw;
+        display: flex;
+        position: relative;
+      }
+
+    .başlık2 {
+        color: white;
+        top: 2vw;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 2.2vw;
+        display: block;
+        position: relative;
+    }
+
+    .çalışma1 {
+        color: white;
+        font-family: 'Akasya Telivigala', cursive;
+        display: block;
+    }
+
+    .açıklama1 {
+        width: 30vw;
+    }
+
+    .item {
+        background-color: rgba(255, 255, 255, 0.35);
+        padding: 5px;
+        margin: 5px;
+        border-radius: 1px;
+        box-shadow: 1px 1px 5px 1px;
+        
+    }
+
+    .button {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      opacity: 0.8;
+      transition: 0.3s;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .button:hover {opacity: 1}
