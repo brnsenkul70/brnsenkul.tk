@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Works</title>
+        <link rel="shortcut icon" type="image/png" href="images/brnsenkul70.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Architects+Daughter&family=Merriweather+Sans:wght@300&family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap"
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css5.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="https://kit.fontawesome.com/bdd89edb33.js"></script>
+        <script src="js.js"></script>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon" href="images/brnsenkul70.png">
+        <link rel="icon" href="images/brnsenkul70.png">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="english.html"> Home</a>
+            <a href="aboutme.html"> About Me</a>
+            <a href="skills.html"> Skills</a>
+            <a href="myworks.html" class="active"> My Works</a>
+            <a href="contactme.html"> Contact Me</a>
+            <a href="index.html"> Turkish</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="başlık">My Works</div>
+    
+    <button class="accordion">brnsyllabus.tk</button>
+    <div class="panel">
+      <p>It is a personal website that allows me to note my assignments and exams down, check my timetable and go to links that can be needed about university.</p>
+        <button class="button" onclick="document.location='https://brnsyllabus.tk'">Link to the website!</button>
+    </div>
+    
+    <button class="accordion">MenuLine</button>
+    <div class="panel">
+      <p>It is a website-app that allows restaurants to present their menus via QR-Code system. It was built up by me and my friend.</p>
+      <button class="button" onclick="document.location='https://menuline.tk/'">Link to the website!</button>
+    </div>
+    
+    <button class="accordion">SelaToMe.tk</button>
+    <div class="panel">
+      <p>It is a website that me and my friend built which shows how many days left to the Yuksekogretim Kurumlari Sinavi, how many people gave their sâlâ, and with a button it allows you to give your sâlâ.</p>
+        <button class="button" onclick="document.location='https://selatome.tk'">Link to the website!</button>
+    </div>
+    
+    <button class="accordion">Production Line Türkçe Çevirisi</button>
+    <div class="panel">
+      <p>It was a translation for Production Line by a group on Facebook. It was our first and last project.</p>
+      <button class="button" onclick="document.location='https://forum.donanimhaber.com/production-line-turkce-yama--139040910'">Link to the website!</button>
+    </div>
+    
+    <button class="accordion">Coming Soon...</button>
+    <div class="panel">
+      <p>Coming Soon...</p>
+    </div>
+    
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+    </body>
+    
+    </html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Çalışmalarım</title>
+    <link rel="shortcut icon" type="image/png" href="images/brnsenkul70.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Architects+Daughter&family=Merriweather+Sans:wght@300&family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css5.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/bdd89edb33.js"></script>
+    <script src="js.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="images/brnsenkul70.png">
+    <link rel="icon" href="images/brnsenkul70.png">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"> Ana Sayfa</a>
+        <a href="hakkımda.html"> Hakkımda</a>
+        <a href="yeteneklerim.html"> Yeteneklerim</a>
+        <a href="çalışmalarım.html" class="active"> Çalışmalarım</a>
+        <a href="iletişim.html"> İletişim</a>
+        <a href="english.html"> English</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="başlık">Çalışmalarım</div>
+
+<button class="accordion">brnsyllabus.tk</button>
+<div class="panel">
+  <p>Üniversitedeki ödevlerimi ve sınavlarımı not edebileceğim, ders programımı kontrol
+    edebileceğim ve üniversiteye ait ihtiyacım olabilecek linkleri koyduğum kişisel bir websitesidir.</p>
+    <button class="button" onclick="document.location='https://brnsyllabus.tk'">Gitmek için tıkla!</button>
+</div>
+
+<button class="accordion">MenuLine</button>
+<div class="panel">
+  <p>Arkadaşımla birlikte kurduğumuz ve QR kod sistemiyle restoranların kendi menülerini
+    sergileyebileceği bir uygulamadır.</p>
+  <button class="button" onclick="document.location='https://menuline.tk/'">Gitmek için tıkla!</button>
+</div>
+
+<button class="accordion">SelaToMe.tk</button>
+<div class="panel">
+  <p>Arkadaşımla birlikte eğlence amaçlı kurduğumuz, YKS tarihine kalan günü, kaç
+    kişinin sela verdiğini gösteren ve bir buton ile sela veren bir sitedir.</p>
+    <button class="button" onclick="document.location='https://selatome.tk'">Gitmek için tıkla!</button>
+</div>
+
+<button class="accordion">Production Line Türkçe Çevirisi</button>
+<div class="panel">
+  <p>Facebook'ta bir grup olarak birlikte yaptığımız ilk ve tek çeviriydi.</p>
+  <button class="button" onclick="document.location='https://forum.donanimhaber.com/production-line-turkce-yama--139040910'">Gitmek için tıkla!</button>
+</div>
+
+<button class="accordion">Çok yakında...</button>
+<div class="panel">
+  <p>Çok yakında...</p>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+</body>
+
+</html>
